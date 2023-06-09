@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(228, 212, 212);
+}
+
+body {
+  font-family: "Lato", sans-serif; /*This means that all elements within the body will automatically have the font “Lato”*/
+  font-weight: 400;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  line-height: 1.4;
+  /* Sets the line-height to 1.6 */
+  color: #161001;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+a {
+  color: #472a00;
+}
+a:visited {
+  /* visited link */
+  color: #4e031cc7; /* when we visit(click) on the link clr changes to given clr */
+}
+a:hover,
+a:focus {
+  /* No underlining when hovering over a link */ /* when we hover on link it chng its clr to given clr also if it contains link then it shows focus(box) around it */
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+a:active {
+  /* selected link */ /*when link is working it chnage its clr to given clr*/
+  color: #489c79;
+}
+button {
+  /* overwrites browser defaults and resets the border */
+  border: none;
+  /* takes the font from the outer container */
+  font-family: inherit;
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  background-color: #ebaf76;
+  color: rgb(68, 6, 6);
+  text-decoration: none;
+  /*adds spacing to the button (this will be discussed more in-depth later) */
+  padding: 10px;
+  border-radius: 3px;
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+button:hover,
+button:focus {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor: pointer;
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+}
+.button__secondary {
+  background-color: #e0aa35;
+  color: #2b230d;
+}
+#web-background {
+  background: rgb(99, 51, 51);
+  color: #dbcfb1;
+}
+
+/*
+Colors used
+
+Text Color (Dark Gray): #2b2b2b;
+Primary Color (Purple): #357b70;
+Secondary Color (Orange): #e0b354;
+ */
