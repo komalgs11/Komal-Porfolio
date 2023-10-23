@@ -100,11 +100,14 @@ th {
   padding: 20px;
 }
 .grid__item {
-  background-color: #b8b4b4;
+  background-color: #e0d5cb;
   text-align: center;
   display: inline-block;
   width: 33%;
   padding: 20px;
+  border: 1px solid #111d1b;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000033;
 }
 
 .project-image {
@@ -130,10 +133,13 @@ th {
   }
 }
 .grid__item {
-  background-color: #b8b4b4;
+  background-color: #e0d5cb;
   width: auto;
   min-height: auto;
   margin: 0;
+  border: 1px solid #111d1b;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000033;
 }
 * {
   -webkit-box-sizing: border-box;
